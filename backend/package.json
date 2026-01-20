@@ -1,0 +1,17 @@
+{
+  "name": "fitbit-proxy-server",
+  "version": "1.0.0",
+  "description": "Proxy server for Fitbit API requests",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "node-fetch": "^2.7.0"
+  }
+}
